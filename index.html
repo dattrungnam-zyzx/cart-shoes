@@ -1,54 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		
-	
-		<title>Card</title>
-		
-		<link rel="stylesheet" href="style.css" />
-		<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	</head>
-	<body>
-	<div class="card">
-		<div class="card__icon">
-				<a href="" class="card__icon-heart">
-					<i class='card__icon-list bx bx-heart'></i>
-				</a>
-				<a href="" class="card__icon-cart">
-					<i class='card__icon-list bx bx-cart-alt'></i>
-				</a>
-		</div>
-		<div class="card__img">
-			<img class="card__img-link" src="https://www.nodemy.vn/projects/html-css-js/product-card/Nike%20Zoom%20KD%2012.png" alt="Giày">
-		</div>
-		<div class="card__name">
-			Nike Zoom KD 12
-		</div>
-		<div class="card__price">
-			<h3 class="card__price-product">$99</h3>
-		</div>
-		<div class="card__size">
-			<h3 class="card__size-product">Size:</h3>
-				<span>6</span>
-				<span>7</span>
-				<span>8</span>
-				<span>9</span>
-		</div>
-		<div class="card__color">
-			<h3 class="card__color-product">Color:</h3>
-			<span class="card__color--green"></span>
-			<span class="card__color--red"></span>
-			<span class="card__color--black"></span>
-		</div>
-		<div class="card__btn">
-			<button class="buy">Buy Now</button>
-			<button class="add">Add Cart</button>
-		</div>
-	</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/ins/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Minguu🖤🐱 (@ng.mince)</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-contain w-pc">
+        <div class="header-tag">
+          <img src="instagram.png" class="header-tag-ins" alt="" />
+        </div>
+        <div class="header-search">
+          <div class="search-input">
+            <input
+              type="text"
+              class="header-search-input"
+              placeholder="Tìm kiếm"
+            />
+          </div>
+          <div class="search-history hidden">
+            <div class="history-header">
+              <div class="search-recently">Gần đây</div>
+              <button class="search-delete">Xóa tất cả</button>
+            </div>
+            <div class="history-list">
+              <div class="history-member">
+                <div class="history-member-ava">
+                  <img src="dat.jpg" alt="" />
+                </div>
+                <div class="history-member-inf">
+                  <div class="history-member-nickname">dat.trung.nam</div>
+                  <div class="history-member-name">Nguyễn Quốc Đạt</div>
+                </div>
+                <div class="history-member-close">
+                  <i class="bx bx-x member-close-icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <i class='bx bx-search-alt-2 search-icon'></i> -->
+          <div class="clear"></div>
+        </div>
+        <div class="header-icon">
+          <i class="bx bx-home"></i>
+          <i class="bx bx-message-rounded-dots"></i>
+          <i class="bx bx-message-square-add"></i>
+          <i class="bx bx-compass"></i>
+          <i class="bx bx-heart"></i>
+          <span>
+            <img src="/ins/dat.jpg" alt="" class="header-ava" />
+          </span>
+        </div>
+      </div>
+      <!-- end header -->
+    </div>
+    <div class="wrap">
+      <div class="user">
+        <div class="user-inf w-pc">
+          <div class="user-inf-ava">
+            <img src="ava.jpg" alt="" />
+          </div>
+          <div class="user-inf-detail">
+            <div class="user-name-more">
+              <h2 class="user-name test">ng.mince</h2>
+              <button class="user-message">Nhắn tin</button>
+              <button class="user-follow">
+                <i class="bx bxs-user-check"></i>
+              </button>
+              <button class="user-suggest-follow">
+                <i class="bx bxs-chevron-down"></i>
+              </button>
+              <span class="user-more-activity">
+                <i class="bx bx-dots-horizontal-rounded"></i>
+              </span>
+            </div>
+            <div class="user-account">
+              <div class="total-status">
+                <p class="total-number">4</p>
+                <p>bài viết</p>
+              </div>
+              <div class="total-follower">
+                <p class="total-number">357</p>
+                <p>người theo dõi</p>
+              </div>
+              <div class="total-follow">
+                <p>Đang theo dõi</p>
+                <p class="total-number">149</p>
+                <p>người dùng</p>
+              </div>
+            </div>
+            <div class="about-user">
+              <div class="user-nickname">Minguu🖤🐱</div>
+              <p>Ninety five</p>
+              <div class="user-social">
+                <a href="instagram.com/thv">instagram.com/thv</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="user-story">
+        <div class="str-contain w-pc">
+          <div class="str">
+            <div class="user-str-picture">
+              <div class="user-str-picture-border"></div>
+              <img class="str-pic-thumbnail" src="str1.jpg" alt="" />
+            </div>
+            <p class="str-title">Dodls</p>
+          </div>
+          <div class="str">
+            <div class="user-str-picture">
+              <div class="user-str-picture-border"></div>
+              <img class="str-pic-thumbnail" src="str2.jpg" alt="" />
+            </div>
+            <p class="str-title">Peacelover<i class="bx bxs-heart"></i></p>
+          </div>
+          <div class="str">
+            <div class="user-str-picture">
+              <div class="user-str-picture-border"></div>
+              <img class="str-pic-thumbnail" src="str3.jpg" alt="" />
+            </div>
+            <p class="str-title">Cow🐄</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="status">
+        <div class="status-contain w-pc">
+          <div class="status-tagname">
+            <div class="status-content status-tag-name__active">
+              <i class="bx bx-grid stt-icon"></i>
+              <p class="stt-tag-name">Bài viết</p>
+            </div>
+            <div class="status-reel">
+              <i class="bx bx-movie-play stt-icon"></i>
+              <p class="stt-tag-name">Reels</p>
+            </div>
+            <div class="status-video">
+              <i class="bx bx-play-circle stt-icon"></i>
+              <p class="stt-tag-name">Video</p>
+            </div>
+            <div class="status-tag">
+              <i class="bx bx-user-circle stt-icon"></i>
+              <p class="stt-tag-name">Được gắn thẻ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
 </html>
-
-
-
